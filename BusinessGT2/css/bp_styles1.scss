@@ -1,0 +1,301 @@
+@import "bp_fontFace.scss";
+@import "divsAndClass.scss";
+$logo-font: dumbThree;
+$desc-font: exo2-thin;
+$head-font:exo2;
+
+html{
+    background:rgb(182, 78, 182); 
+    //width:100%;
+    //height:100%;
+    //position:relative;
+    body {
+        display: -webkit-flex;
+       display: flex;
+       -webkit-flex-flow: column nowrap;
+       flex-flow: column nowrap;
+       //height:100%;
+       //position:relative;
+       //width:100%;
+        header{
+            
+            h1{
+                    background-image:url("../images/logo.jpeg");
+                    text-decoration: overline;
+                    text-align:Left;
+                    text-shadow:white 250px -1px 1px;
+    
+                    font: { 
+                        style:italic;
+                        family:$logo-font;
+                        size:1.5em;
+                    }          
+                float:left;
+                width:69%;
+            }       
+            h2{
+                text-align:right;
+            }
+            //width:50%;
+        }
+        nav{
+            margin:auto;
+            background:black;
+            color:white;
+            border:2px solid white;
+            display:table;
+            float:right;
+            height:10%;
+            width:30%;
+            margin-bottom: 2%;
+            margin-top:1%;
+
+            font: {
+                family: $desc-font;
+            }
+    
+            ul{
+                display:table-row;
+                li{
+                    margin:auto;
+                    display:table-cell;
+                    list-style-type:none;
+                    border:2px solid white;
+                    border-collapse: collapse;
+                    width:15%;
+                    text-align:center;
+                    transition:background 1s;
+                    &:hover{
+                        background:white;
+                    }
+                    
+                    a{
+                        text-decoration: none;
+                        color:white;
+                        transition: color 0.8s;
+
+                    &:hover {
+                        //background:white;
+                        color:black;
+                    }
+                    }
+                }
+            }
+        }
+         section {
+            height:100%;
+            margin-bottom:0;
+            >h2{
+                text: {
+                    align: right;
+                    decoration:underline;
+                }
+                font: {
+                    family:$head-font;
+                }
+            }
+    
+            >img{
+                width:100%;
+                height:35%;
+                filter:brightness(155%);
+            }
+                    //     clear:both;
+                    //     display:table;
+                    //     margin-top:5%;
+            article {
+                letter-spacing: 1px;
+                background:white;
+                //border: solid 5px goldenrod;
+                //width:auto;
+                //height:auto;
+                //padding:1%;
+    
+                //margin:5% 0 0.1% 0;
+                //display:block;
+                //float:right;
+                //border-radius:50px;
+                font: {
+                    family:$desc-font;
+                    color:black;
+                    weight:bold;
+                }
+    
+                >h2{
+                    text-align: center;
+                    font: {
+                        family:$head-font;
+                        weight:bold;
+                    }
+                }
+            }
+        
+            aside{
+                //margin-top:0.1%;
+                border:2px solid black;
+                background:white;
+                display:block;
+               // float:right;
+                padding:1%;
+                width:auto;
+                //margin-right:10%;
+                text-align: center;
+    
+                font: {
+                    family:$head-font;
+                }
+                >table {
+                    text-align: center;
+                    //display:inline-block;
+                    margin:0 auto;
+                    margin-top:5%;
+                    width:95%;
+                    border-collapse:collapse;
+                    white-space: nowrap;
+                    overflow-x:hidden;
+                    overflow-y: hidden;
+
+                    font: {
+                        family:$desc-font;
+                    }
+                    //float:left;
+                    
+    
+                    th{
+                        border:solid black 1px;
+                        background:navy;
+                        color:white;
+                    }
+    
+                    tr{
+                        td{
+                            border:solid black 1px;
+                            text-align:center;
+
+                            font: {
+                                family:$head-font;
+                            }
+                        }
+                    }
+                    caption{
+                        text-align: center;
+
+                        font: {
+                            family:$head-font;
+                        }
+                        //position:absolute;
+                    }
+                }
+            }
+        
+                    // section::after {
+                    //     content: "";
+        }         //     display: table;
+                    //     clear: both;
+         
+        
+    
+        footer {        
+            text-align: center;
+            background:linear-gradient(to right, #ff6600, #3333ff 25%);
+            // flex: 0 0 auto;
+            // order:100;
+            //margin: 0 auto;
+            //display:flex;
+            // padding-top:1%;
+            // margin-top:7%;
+            height:75px;
+            //position:absolute;
+            //width:100%;
+             position: sticky;
+             bottom:0px;
+            // bottom:0;
+            // top:0;
+            // right:0;
+            // left:0;
+            //flex-shrink:0;
+    
+            >p.leftFoot{
+                text-align: left;
+                float: left;
+                //display:inline;
+                
+                font: {
+                    family:$logo-font;
+                    weight:bold;
+                    size:1.5em;
+                }
+            }
+            >p.centerFoot{
+                text-align: center;
+                color:white;
+                font: {
+                    family:$desc-font;
+                    weight:bold;
+                }
+            }
+            p.rightFoot{
+                text-align: right;
+                //float:right;
+            }
+            
+        }
+    
+        figure{
+            display: block;
+            margin:auto;
+            float:left;
+            background:black;
+            box-shadow: 5px 5px 5px,
+                         //orangered -10px -10px 33px,
+                         navy 20px 20px 33px,
+                         black -2px -2px 5px;
+            width:19%;
+            height:auto;
+            transition:box-shadow 0.5s,
+                        transform 0.7s ;
+
+            &:hover{
+                box-shadow: 5px 5px 5px,
+                orangered -10px -10px 33px,
+                navy 20px 20px 33px,
+                black -2px -2px 5px; 
+
+                transform: scale(1.2);
+
+                figcaption{
+                    text-shadow: white 10px;
+                }
+            }
+            
+            border: {
+                style:solid;
+                width:1px;
+                color:black;
+                radius:10px;
+            }
+        
+            >img{
+                margin:auto;
+                box-shadow: #000066 5px 5px 10px;
+                border:solid 1px black;
+                width:99%;
+                height:50%;
+                
+                border-radius:10px 50px 10px 50px;
+            }
+    
+             figcaption {
+                border:none;
+                padding-top:1%;
+                color:white;
+
+                font: {
+                    family: $desc-font;
+                }
+                transform: translateX(25px);
+             }
+    
+        }
+    }  
+}

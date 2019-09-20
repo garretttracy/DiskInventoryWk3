@@ -1,0 +1,323 @@
+@font-face {
+  font-family: dumbThree;
+  src: url(../font/3dumb_regular_macroman/3Dumb-webfont.woff);
+}
+
+@font-face {
+  font-family: exo2;
+  src: url(../font/exo-2/Exo2-Black.otf);
+}
+
+@font-face {
+  font-family: exo2-thin;
+  src: url(../font/exo-2/Exo2-Thin.otf);
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    width: 100%;
+  }
+  div.banner > header > h1, div.banner1 > header > h1 {
+    text-shadow: white 210px -1px 1px;
+  }
+  div.banner > nav, div.banner1 > nav {
+    float: none;
+    width: 100%;
+  }
+  div.banner1 > figure > figcaption {
+    -webkit-transform: translateX(-0.1px);
+            transform: translateX(-0.1px);
+  }
+}
+
+div.banner, div.banner1 {
+  display: table;
+}
+
+div.banner1 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+div.banner1 > img {
+  margin: auto;
+  -webkit-box-shadow: #000066 5px 5px 10px;
+          box-shadow: #000066 5px 5px 10px;
+  border: solid 1px black;
+  height: auto;
+  border-radius: 10px 50px 10px 50px;
+}
+
+div#image1 {
+  background-image: url(../images/glass_blower.jpg);
+  height: 45%;
+}
+
+section img.bannerimage {
+  width: 100%;
+  height: 1%;
+}
+
+form.survey {
+  width: 33%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+}
+
+form.survey > fieldset {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  overflow: hidden;
+}
+
+div.formRow {
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+}
+
+article.formBox {
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
+article.formBox > p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+html {
+  background: #b64eb6;
+}
+
+html body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+html body header h1 {
+  background-image: url("../images/logo.jpeg");
+  text-decoration: overline;
+  text-align: Left;
+  text-shadow: white 250px -1px 1px;
+  font-style: italic;
+  font-family: dumbThree;
+  font-size: 1.5em;
+  float: left;
+  width: 69%;
+}
+
+html body header h2 {
+  text-align: right;
+}
+
+html body nav {
+  margin: auto;
+  background: black;
+  color: white;
+  border: 2px solid white;
+  display: table;
+  float: right;
+  height: 10%;
+  width: 30%;
+  margin-bottom: 2%;
+  margin-top: 1%;
+  font-family: exo2-thin;
+}
+
+html body nav ul {
+  display: table-row;
+}
+
+html body nav ul li {
+  margin: auto;
+  display: table-cell;
+  list-style-type: none;
+  border: 2px solid white;
+  border-collapse: collapse;
+  width: 15%;
+  text-align: center;
+  -webkit-transition: background 1s;
+  transition: background 1s;
+}
+
+html body nav ul li:hover {
+  background: white;
+}
+
+html body nav ul li a {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: color 0.8s;
+  transition: color 0.8s;
+}
+
+html body nav ul li a:hover {
+  color: black;
+}
+
+html body section {
+  height: 100%;
+  margin-bottom: 0;
+}
+
+html body section > h2 {
+  text-align: right;
+  text-decoration: underline;
+  font-family: exo2;
+}
+
+html body section > img {
+  width: 100%;
+  height: 35%;
+  -webkit-filter: brightness(155%);
+          filter: brightness(155%);
+}
+
+html body section article {
+  letter-spacing: 1px;
+  background: white;
+  font-family: exo2-thin;
+  font-color: black;
+  font-weight: bold;
+}
+
+html body section article > h2 {
+  text-align: center;
+  font-family: exo2;
+  font-weight: bold;
+}
+
+html body section aside {
+  border: 2px solid black;
+  background: white;
+  display: block;
+  padding: 1%;
+  width: auto;
+  text-align: center;
+  font-family: exo2;
+}
+
+html body section aside > table {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 5%;
+  width: 95%;
+  border-collapse: collapse;
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: exo2-thin;
+}
+
+html body section aside > table th {
+  border: solid black 1px;
+  background: navy;
+  color: white;
+}
+
+html body section aside > table tr td {
+  border: solid black 1px;
+  text-align: center;
+  font-family: exo2;
+}
+
+html body section aside > table caption {
+  text-align: center;
+  font-family: exo2;
+}
+
+html body footer {
+  text-align: center;
+  background: -webkit-gradient(linear, left top, right top, from(#ff6600), color-stop(25%, #3333ff));
+  background: linear-gradient(to right, #ff6600, #3333ff 25%);
+  height: 75px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0px;
+}
+
+html body footer > p.leftFoot {
+  text-align: left;
+  float: left;
+  font-family: dumbThree;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+html body footer > p.centerFoot {
+  text-align: center;
+  color: white;
+  font-family: exo2-thin;
+  font-weight: bold;
+}
+
+html body footer p.rightFoot {
+  text-align: right;
+}
+
+html body figure {
+  display: block;
+  margin: auto;
+  float: left;
+  background: black;
+  -webkit-box-shadow: 5px 5px 5px, navy 20px 20px 33px, black -2px -2px 5px;
+          box-shadow: 5px 5px 5px, navy 20px 20px 33px, black -2px -2px 5px;
+  width: 19%;
+  height: auto;
+  -webkit-transition: -webkit-box-shadow 0.5s, -webkit-transform 0.7s;
+  transition: -webkit-box-shadow 0.5s, -webkit-transform 0.7s;
+  transition: box-shadow 0.5s, transform 0.7s;
+  transition: box-shadow 0.5s, transform 0.7s, -webkit-box-shadow 0.5s, -webkit-transform 0.7s;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 10px;
+}
+
+html body figure:hover {
+  -webkit-box-shadow: 5px 5px 5px, orangered -10px -10px 33px, navy 20px 20px 33px, black -2px -2px 5px;
+          box-shadow: 5px 5px 5px, orangered -10px -10px 33px, navy 20px 20px 33px, black -2px -2px 5px;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+html body figure:hover figcaption {
+  text-shadow: white 10px;
+}
+
+html body figure > img {
+  margin: auto;
+  -webkit-box-shadow: #000066 5px 5px 10px;
+          box-shadow: #000066 5px 5px 10px;
+  border: solid 1px black;
+  width: 99%;
+  height: 50%;
+  border-radius: 10px 50px 10px 50px;
+}
+
+html body figure figcaption {
+  border: none;
+  padding-top: 1%;
+  color: white;
+  font-family: exo2-thin;
+  -webkit-transform: translateX(25px);
+          transform: translateX(25px);
+}
+/*# sourceMappingURL=bp_styles1.css.map */

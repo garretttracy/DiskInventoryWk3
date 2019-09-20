@@ -1,0 +1,33 @@
+Add custom JavaScript validation to the E-Newsletter Sign-up page
+
+First Name and Last Name validation messages should contain unique, appropriate message for the field when left empty (done)
+Email should contain unique, appropriate message for when the field is left empty and when the pattern is incorrect
+
+Add custom JavaScript validation to the Contact Us page
+First Name and Last Name validation messages should contain unique, appropriate message for the field when left empty(done)
+Email should contain unique, appropriate message for when the field is left empty and when the pattern is incorrect
+
+Should present unique validation message when the "Reason" dropdown has not been modified by a selection(done)
+
+Attach your customization through proper event handlers or event listeners(done)
+
+Should validate when text is input, dropdown changed, and when the submit buttons are clicked(done)
+
+Demonstrate use of anonymous functions(done)
+
+Create your own custom RegEx pattern and apply them to your email fields
+
+--> /(\w*\.\w*\@\w{2,}\.[a-zA-Z]*\.[a-zA-Z]{3})|(\w*\@\w*\.\w*\.\w*\.[a-zA-Z]{3})|(\w*\@\w{2,}\.[a-zA-Z]{3})/
+
+The following should be accepted:
+"bsimpson@springfieldElem.edu"
+"homer.simpson@Springfield.Nuclear.com"
+"lisa34@bleeding.gums.murphy.org"
+"kentbrockman@smartline.net"
+The following should be rejected:
+"  gt@b.com   "
+"a@b.c"
+"3@5.7"
+
+step 1 --- custom validate name fields, starting with contact page
+1a -  custom validate name fields on newsletter page

@@ -1,0 +1,63 @@
+Think of topic//subject of business page
+add nav bar
+add transluscent images for background stylings
+//add gradient to probably: nav, footer, header etc// 
+//add a table to the main page aside or possibly in the newsletter page
+{add a post form to the contact us page
+link portfolio to business page
+add validation to contact page as well as the newsletter page}
+{add mobile tablet and desktop styles
+add flex boxes for the above ^^^}
+https://www.business.com/
+
+
+6-2 added gradient to footer, may need editing to compliment other colors
+7-2 added basic table structure and properly aligned the aside and article elements
+
+---------------------------------------------------------------------------------------------------------------------------------
+Overall
+// = complete
+-/ = partial
+
+//Ensure images are stored in the proper file structure (i.e. images folder)
+//Ensure styling is defined in the stylesheets and not in the HTML
+//Place styling in stylesheets with proper file structure (i.e. a CSS folder)
+-/Utilize SASS stylesheets with appropriate features like variables, mixins, multiple files, inheritance, etc.
+Session 4
+
+Tasteful use of background images; add non-obtrusive background images
+-/Use figure boxes around main images with captions and alternative text
+-/Use CSS styles to position and style figure boxes
+//Add at least one border to a main image and/or text container
+//Use a border image or border with rounded corners
+//Demonstrate use of a text-shadow and a box-shadow
+//Apply a linear or radial gradient to the background of an element on the page
+Apply a transform to an image in some way
+Apply a filter to an image
+Session 5
+
+Utilize media queries to define styles for mobile, tablet and desktop
+Use flexboxes to enable a responsive design; ensure you include the -webkit versions of the style properties
+Use flex-basis, flex-grow and flex-shrink on the flex items
+Align flexboxes using flexbox layouts
+Session 6
+
+-/Utilize an HTML table perhaps to market your products and/or services.
+Style your HTML table using th elements, row groups (thead, tfoot, tbody), and colgroups
+Use rowspans and colspans where appropriate for you content and add a table caption
+Session 7
+
+Ensure your form pages utilize an action="http://www.example.com/portfolio" (or similar) and a method="post"
+Add the attached javascript file "port_formsubmit.js" to your business project and reference it in the pages with your forms
+Group form elements into appropriate fieldsets with legends
+Ensure form control elements have a name and id defined that are unique from each other
+Utilize proper type for input form controls
+Utilize labels that are properly associated with their form control
+Group each label/input in a div tag
+Demonstrate the use of default values and placeholders
+Assign appropriate controls as required
+Use a validation pattern on at least one form control
+Session 8
+
+Style and apply a hover transition over your web page navigation and/or anywhere else you think might be cool
+Utilize an animation (i.e. keyframes) on your site in a unique, tasteful, innovative way (no spinning "ceiling dances", bouncing balls, or jumping foxes, bats, or butterflies ;))

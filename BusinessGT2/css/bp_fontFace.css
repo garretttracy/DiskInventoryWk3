@@ -1,0 +1,15 @@
+@font-face {
+  font-family: dumbThree;
+  src: url(../font/3dumb_regular_macroman/3Dumb-webfont.woff);
+}
+
+@font-face {
+  font-family: exo2;
+  src: url(../font/exo-2/Exo2-Black.otf);
+}
+
+@font-face {
+  font-family: exo2-thin;
+  src: url(../font/exo-2/Exo2-Thin.otf);
+}
+/*# sourceMappingURL=bp_fontFace.css.map */

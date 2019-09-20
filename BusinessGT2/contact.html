@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <link href="css/bp_styles1.css" rel="stylesheet" />
+<!--            <script src= "js/contact.js" async></script>-->
+            <link rel="icon" href="images/icon4.jpg" />
+            <title>Contact Us</title>
+    </head>
+    
+    <body> 
+            <div class="banner">
+                    <header>
+                        <h1>Mega Glass INC.</h1>
+                    </header>
+                    <nav>
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="newsletter.html">Subscribe to our Newsletter!</a></li>
+                            <li><a href=adminLogin.html>Admin</a></li>
+                        </ul>
+                    </nav>
+                </div>
+        <section><h2><i>We Want To Hear From You!</i></h2>
+            
+            <article class="formBox">
+                <form class="survey" action="thankyou.php" method="post">
+            <fieldset id="custInfo">
+                <div class="formRow">
+                        <select id="reason" name="reason" >
+                                <option id = "default" value = "Def">Reason?</option>
+                                <option value="Q">Question</option>
+                                <option value="comment">Comment(s)</option>
+                                <option value="concern">Concern</option>
+                              </select>
+                </div>			
+                <div class="formRow">
+                    <label for="name">First Name:</label>
+                    <input name="firstName" id="fname" type="text" placeholder="first name" required/>
+                </div>
+                
+                <div class="formRow">
+                    <label for="name">Last Name</label>
+                    <input name="lastName" id="lname" type="text" placeholder="and last name" required/>
+                </div>
+                
+                <div class="formRow">
+                    <label for="email">Email</label>
+                    <input type="text" name="electronicMailAddress"  id="eBox"  placeholder="your.name@example.com" required />
+                </div>
+                <label for="commBox">Questions/Comments/Concerns:</label>
+                <textarea type="text" name="custExp" id="commBox"required></textarea>
+                <input type="submit"  id="subButton" value="Send Email" /> 
+            </fieldset>
+            
+          </form>
+            
+                <p><em>~Thank you for taking the time to share your opinion(s)~</em></p>
+            </article>
+
+        </section>
+        <!-- <figure>
+            <img src="images/stock.jpg" alt="stock photo" />
+            <figcaption>
+                This is a caption.
+            </figcaption>
+        </figure> -->
+        <footer>
+                <p class="leftFoot">Mega Glass INC.</p>
+                <p class="rightFoot"> <nav>
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="newsletter.html">Subscribe to our Newsletter!</a></li> 
+                            <li><a href=adminLogin.html>Admin</a></li>
+                        </ul>
+                    </nav></p>
+                <p class="centerFoot">3221 7th street Eugene, OR <br />208 324 3222 <br />Available 9-5!</p>
+                
+        </footer>
+    </body>
+</html>

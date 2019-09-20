@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,UAAU;EACN,WAAW,EAAC,SAAS;EACrB,GAAG,EAAE,sDAAsD;;;AAG/D,UAAU;EACN,WAAW,EAAC,IAAI;EAChB,GAAG,EAAE,iCAAiC;;;AAG1C,UAAU;EACN,WAAW,EAAC,SAAS;EACrB,GAAG,EAAC,gCAAgC",
+    "sources": [
+        "bp_fontFace.scss"
+    ],
+    "names": [],
+    "file": "bp_fontFace.css"
+}
