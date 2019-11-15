@@ -1,0 +1,22 @@
+﻿body {
+    background-color:black;
+}
+div.container.body-content{
+    text-align:center;
+    color:black;
+    background-color: lightgoldenrodyellow;
+    font-size: 150%;
+    font-style:italic;
+}
+div.navbar {
+    background-color:black;
+    /*color:white;*/
+    font-weight: bold;
+}
+a.navbar-brand{
+    color:white;
+}
+div.jumbotron{
+    background-color:darkgray;
+    text-align:center;
+}

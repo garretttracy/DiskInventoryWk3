@@ -1,0 +1,15 @@
+CREATE LOGIN diskApp1 WITH PASSWORD = 'Pa$$w0rd',
+	DEFAULT_DATABASE = disk_inventoryGT;
+CREATE USER diskApp1 for LOGIN diskApp1;
+GRANT EXECUTE ON dbo.sp_DelArtist TO diskApp1
+GRANT EXECUTE ON dbo.sp_DelBorrower TO diskApp1
+GRANT EXECUTE ON dbo.sp_DelCD TO diskApp1
+GRANT EXECUTE ON dbo.sp_InsArtist TO diskApp1
+GRANT EXECUTE ON dbo.sp_InsBorrower TO diskApp1
+GRANT EXECUTE ON dbo.sp_InsCD TO diskApp1
+GRANT EXECUTE ON dbo.sp_UpdArtist TO diskApp1
+GRANT EXECUTE ON dbo.sp_UpdBorrower TO diskApp1
+GRANT EXECUTE ON dbo.sp_UpdCD TO diskApp1
+ GRANT SELECT ON ARTIST TO diskApp1
+  GRANT SELECT ON BORROWER TO diskApp1
+   GRANT SELECT ON CD TO diskApp1
