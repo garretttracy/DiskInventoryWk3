@@ -7,14 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace WebApplication1
 {
-    public partial class About : Page
+    public partial class Error404 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (IsValid)
-            {
 
-            }
         }
     }
 }

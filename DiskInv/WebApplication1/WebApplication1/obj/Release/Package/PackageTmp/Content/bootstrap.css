@@ -115,9 +115,10 @@ input,
 optgroup,
 select,
 textarea {
-  margin: 0;
-  font: inherit;
   color: inherit;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
 }
 button {
   overflow: visible;
@@ -1097,6 +1098,7 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+    margin-top: 19px;
 }
 a {
   color: #337ab7;

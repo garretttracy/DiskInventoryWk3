@@ -77,6 +77,7 @@
                         <li><a runat="server" href="~/Maintenance/Borrower">Borrower</a></li>
                         <li><a runat="server" href="~/Maintenance/Artists">Artists</a></li>
                         <li><a runat="server" href="~/Maintenance/diskEntry">Disks</a></li>
+                        <li><a runat="server" href="~/Maintenance/ChkOut">Check Out</a></li>
                     </ul>
                     <%--Login and register page connections--%>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
@@ -101,8 +102,7 @@
         <%--Header to reinforce 'branding'--%>
         <div class="jumbotron">
         <h1>Disk Inventory</h1>
-        <p class="lead">Welcome to Disk Inventory GT!<br /><br />    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed blandit sem. Vestibulum tempor non metus sed imperdiet. Pellentesque interdum consectetur accumsan. Pellentesque ornare facilisis tellus vitae rhoncus. Ut in efficitur justo. Nam volutpat pulvinar pellentesque. Proin id tempor ipsum. Donec malesuada justo diam, at feugiat elit pulvinar pretium.  </p>
-        <p>&nbsp;</p>
+        <p class="lead">Welcome to Disk Inventory GT!<br /><br />   
     </div>
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">

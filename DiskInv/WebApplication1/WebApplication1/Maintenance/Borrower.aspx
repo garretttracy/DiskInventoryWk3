@@ -32,7 +32,7 @@
             <tr style="background-color:#FFF8DC;">
                 <td>
                     <asp:Button CausesValidation="false" ID="DeleteButton" runat="server" CommandName="Delete" Text="Delete" />
-                    <asp:Button ID="EditButton" runat="server" CommandName="Edit" Text="Edit" />
+                    <asp:Button CausesValidation="false" ID="EditButton" runat="server" CommandName="Edit" Text="Edit" />
                 </td>
                 <td>
                     <asp:Label ID="Borrower_IDLabel" runat="server" Text='<%# Eval("Borrower_ID") %>' />
@@ -51,7 +51,7 @@
         <EditItemTemplate>
             <tr style="background-color:#008A8C;color: #FFFFFF;">
                 <td>
-                    <asp:Button ID="UpdateButton" runat="server" CommandName="Update" Text="Update" />
+                    <asp:Button CausesValidation="false" ID="UpdateButton" runat="server" CommandName="Update" Text="Update" />
                     <asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancel" CausesValidation="False" />
                 </td>
                 <td>
@@ -83,7 +83,7 @@
             <tr style="">
                 <td>
                     <asp:Button ID="InsertButton" runat="server" CommandName="Insert" Text="Insert" />
-                    <asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Clear" />
+                    <asp:Button CausesValidation="false" ID="CancelButton" runat="server" CommandName="Cancel" Text="Clear" />
                 </td>
                 <td>&nbsp;</td>
                 <td>
@@ -107,7 +107,7 @@
             <tr style="background-color:#DCDCDC;color: #000000;">
                 <td>
                     <asp:Button CausesValidation="false" ID="DeleteButton" runat="server" CommandName="Delete" Text="Delete" />
-                    <asp:Button ID="EditButton" runat="server" CommandName="Edit" Text="Edit" />
+                    <asp:Button CausesValidation="false" ID="EditButton" runat="server" CommandName="Edit" Text="Edit" />
                 </td>
                 <td>
                     <asp:Label ID="Borrower_IDLabel" runat="server" Text='<%# Eval("Borrower_ID") %>' />
@@ -149,7 +149,7 @@
             <tr style="background-color:#008A8C;font-weight: bold;color: #FFFFFF;">
                 <td>
                     <asp:Button CausesValidation="false" ID="DeleteButton" runat="server" CommandName="Delete" Text="Delete" />
-                    <asp:Button ID="EditButton" runat="server" CommandName="Edit" Text="Edit" />
+                    <asp:Button CausesValidation="false" ID="EditButton" runat="server" CommandName="Edit" Text="Edit" />
                 </td>
                 <td>
                     <asp:Label ID="Borrower_IDLabel" runat="server" Text='<%# Eval("Borrower_ID") %>' />

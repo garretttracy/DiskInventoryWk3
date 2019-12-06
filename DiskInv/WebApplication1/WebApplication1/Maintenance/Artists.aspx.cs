@@ -11,9 +11,16 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
 
+        protected void MainContent_ListView1_InsertButton_Click(object sender, EventArgs e)
+        {
+            if (IsValid)
+            {
+                Label1.Text = "Success!";
+            }
+        }
         protected void Button1_Click(object sender, EventArgs e)
         {
             //Resets page on button click and throws a confirmation message

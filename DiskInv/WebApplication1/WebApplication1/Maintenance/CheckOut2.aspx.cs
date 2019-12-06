@@ -5,16 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace WebApplication1
+namespace WebApplication1.Maintenance
 {
-    public partial class About : Page
+    public partial class CheckOut2 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (IsValid)
-            {
 
-            }
         }
     }
 }
